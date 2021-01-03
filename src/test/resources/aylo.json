@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "content": "",
+      "name": "What is the problem ?",
+      "title": "# What is the problem ?",
+      "description": "# What is the problem ? \n\n Do not rush in with solutions before taking time to define the problem being solved.",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": 1,
+      "name": "Who has the problem ?",
+      "description": "# Who has the problem ? \n\nDetermine who is the client-that is, who must be made happy.\n\nEstablish some clues that may lead to appropriate solutions.",
+      "title": "# Who has the problem?",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": 2,
+      "name": "How can you determine what is wrong? ",
+      "description": "# How can you determine what is wrong? \n\nA problem is difference between things as desired and things as perceived.\n\nProblem can be solved either by changing desires or changing perceptions.",
+      "title": "# How can you determine what is wrong?",
+      "content": "",
+      "links": [],
+      "neighbors": []
+    },
+
+    {
+      "id": 3,
+      "name": "Solution ?",
+      "description": "# Solution ? \n\nProblem can be solved either by changing desires or changing perceptions.",
+      "title": "# Solution",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+
+    {
+      "id": 4,
+      "name": "Three things that might be wrong with your solution",
+      "description": "# Three things that might be wrong with your solution \n\nEach solution is source of next next problem.\n\nThe Trickiest part of certain problems is just recognizing their existence.\n\nIf you can not think of at least three things that might be wrong with your understanding of problem. You don't understand the problem",
+      "title": "# Three things",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "value": 2
+    },
+
+    {
+      "source": 2,
+      "target": 3,
+      "value": 2
+    },
+
+    {
+      "source": 3,
+      "target": 4,
+      "value": 2
+    }
+  ]
+}

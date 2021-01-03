@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Initial Problem statement! ",
+      "title": "# Initial Problem statement! ",
+      "description": "# What is the problem ? \n\n Do not rush in with solutions before taking time to define the problem being solved.",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": 1,
+      "name": "Why ? ",
+      "description": "# Who has the problem ? \n\nDetermine who is the client-that is, who must be made happy.\n\nEstablish some clues that may lead to appropriate solutions.",
+      "title": "# Why ?",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": 2,
+      "name": "How ?",
+      "description": "How ?",
+      "title": "# How ?",
+      "content": "",
+      "links": [],
+      "neighbors": []
+    },
+
+    {
+      "id": 3,
+      "name": "How ?",
+      "description": "# Solution ? \n\nProblem can be solved either by changing desires or changing perceptions.",
+      "title": "# How ?",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "value": 2
+    }
+  ]
+}
