@@ -26,7 +26,7 @@
         document-with-uuid (assoc document :crux.db/id document-id)
         trx (crux/submit-tx (:node db-connection) [[:crux.tx/put document-with-uuid]])]
     (crux/await-tx (:node db-connection)  trx )
-   (ring-resp/response document-with-uuid)))
+   (ring-resp/response (set/rename-keys document-with-uuid {:crux.db/id :id} ))))
 
 (defn update-notes
   [db-connection {:keys [json-params path-params]}]
