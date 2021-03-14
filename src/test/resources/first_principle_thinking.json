@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "{{id-0}}",
+      "content": "",
+      "name": "Explain the origin of your idea.",
+      "title": "# Explain the origin of your idea.",
+      "description": "Clarifying your thinking and explaining the origins of your ideas. (Why do I think this? What exactly do I think?)",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": "{{id-1}}",
+      "name": "Challenging Assumption",
+      "description": "How do I know this is true ? What if I thought the opposite ?",
+      "title": "Challenging Assumption",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": "{{id-2}}",
+      "name": "Looking for evidences ?",
+      "description": "How can I back this up ? What are the sources ?",
+      "title": "Looking for evidences ?",
+      "content": "",
+      "links": [],
+      "neighbors": []
+    },
+
+    {
+      "id": "{{id-3}}",
+      "name": "Considering alternative perspectives",
+      "description": "Considering alternative perspectives. (What might others think? How do I know I am correct?)\n\nParrish, Shane; Beaubien, Rhiannon. The Great Mental Models Volume 1: General Thinking Concepts (p. 79). Latticework Publishing Inc.. Kindle Edition. ",
+      "title": "Considering alternative perspectives",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+
+    {
+      "id": "{{id-4}}",
+      "name": "Examining Consequences and implications",
+      "description": "Examining consequences and implications. (What if I am wrong? What are the consequences if I am?)\n\nParrish, Shane; Beaubien, Rhiannon. The Great Mental Models Volume 1: General Thinking Concepts (p. 79). Latticework Publishing Inc.. Kindle Edition. ",
+      "title": "# Three things",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "source": "{{id-0}}",
+      "target": "{{id-1}}",
+      "value": 2
+    },
+    {
+      "source": "{{id-1}}",
+      "target": "{{id-2}}",
+      "value": 2
+    },
+
+    {
+      "source": "{{id-2}}",
+      "target": "{{id-3}}",
+      "value": 2
+    },
+
+    {
+      "source": "{{id-3}}",
+      "target": "{{id-4}}",
+      "value": 2
+    }
+  ]
+}

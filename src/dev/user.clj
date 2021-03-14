@@ -1,7 +1,22 @@
 (ns user
   (:require [crux.api :as crux]
-            [integrant.repl :refer [clear go halt prep init reset reset-all]])
+            [integrant.repl :refer [clear go halt prep init reset reset-all]]
+            [clojure.tools.namespace.repl :refer [set-refresh-dirs]]
+            [tardis.system :refer [ system ]])
   (:import (java.util UUID)))
+
+(comment
+  Start service in repl
+  Documentation: https://github.com/weavejester/integrant-repl
+  (integrant.repl/set-prep! (constantly (system :test)))
+  (integrant.repl/go)
+
+  # Reload
+      (reset)
+
+  (set-refresh-dirs "src/tardis")
+
+  )
 
 (comment
   (def node (crux/start-node {}))

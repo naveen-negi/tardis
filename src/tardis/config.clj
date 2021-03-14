@@ -2,7 +2,8 @@
   (:require [integrant.core :as ig]
             [io.pedestal.http :as http]
             [tardis.routes :as routes]
-            [crux.api :as crux]))
+            [crux.api :as crux]
+            [selmer.parser :as parser]))
 
 (defn test?
   [service-map]
@@ -14,6 +15,7 @@
 
 (defmethod ig/init-key :tardis/pedestal
   [_ {:keys [service-map] :as pedestal}]
+  (parser/cache-off!)
   (cond-> service-map
           true http/create-server
           (not (test? service-map)) http/start

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "{{id-0}}",
+      "content": "# Decision: \n\n",
+      "name": "Decision",
+      "title": "Decision",
+      "description": "",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": "{{id-1}}",
+      "name": "Effects (Good)",
+      "title": "Effects (Good)",
+      "description": "",
+      "content": "# Effects (Good): \n\n | 1st Order Effect | 2nd Order Effect | 3rd Order Effect |\n|------------------|------------------|------------------|\n|                  |                  |                  |\n|                  |                  |                  |\n|                  |                  |                  |",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": "{{id-2}}",
+      "name": "Effects (Bad)",
+      "title": "Effects (Bad)",
+      "description": "",
+      "content": "# Effects (Bad): \n\n \n\n | 1st Order Effect | 2nd Order Effect | 3rd Order Effect |\n|------------------|------------------|------------------|\n|                  |                  |                  |\n|                  |                  |                  |\n|                  |                  |                  |",
+      "links": [],
+      "neighbors": []
+    }
+  ],
+  "links": [
+    {
+      "source": "{{id-0}}",
+      "target": "{{id-1}}",
+      "value": 2
+    },
+    {
+      "source": "{{id-0}}",
+      "target": "{{id-2}}",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "{{id-0}}",
+      "content": "",
+      "name": "Define your objective",
+      "title": "# Define your objective",
+      "description": "",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": "{{id-1}}",
+      "name": "Identify the forces that support change toward your objective",
+      "title": "Identify the forces that support change towards your objective",
+      "description": "",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": "{{id-2}}",
+      "name": "Identify the forces that impedes change towards your objective",
+      "title": "Identify the forces that impedes change towards your objective",
+      "description": "",
+      "content": "",
+      "links": [],
+      "neighbors": []
+    },
+
+    {
+      "id": "{{id-3}}",
+      "name": "Strategize your solution",
+      "title": "Test with (thought) Experiment",
+      "description": "By augmenting favrable forces and reducing or eliminating the hindering forces",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "source": "{{id-0}}",
+      "target": "{{id-1}}",
+      "value": 2
+    },
+    {
+      "source": "{{id-1}}",
+      "target": "{{id-2}}",
+      "value": 2
+    },
+
+    {
+      "source": "{{id-2}}",
+      "target": "{{id-3}}",
+      "value": 2
+    }
+  ]
+}

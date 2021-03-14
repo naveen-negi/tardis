@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "{{id-0}}",
+      "content": "",
+      "name": "# Ask a question",
+      "title": "# Ask a question",
+      "description": "",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": "{{id-1}}",
+      "name": "Conduct Background Research",
+      "title": "Conduct Background Research",
+      "description": "",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+    {
+      "id": "{{id-2}}",
+      "name": "Construct hypothesis",
+      "title": "Construct hypothesis",
+      "description": "",
+      "content": "",
+      "links": [],
+      "neighbors": []
+    },
+
+    {
+      "id": "{{id-3}}",
+      "name": "Test with (thought) Experiment",
+      "title": "Test with (thought) Experiment",
+      "description": "",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+
+    {
+      "id": "{{id-4}}",
+      "name": "Analyze outcome and draw conclusion",
+      "title": "Analyze outcome and draw conclusion",
+      "description": "Examining consequences and implications. (What if I am wrong? What are the consequences if I am?)\n\nParrish, Shane; Beaubien, Rhiannon. The Great Mental Models Volume 1: General Thinking Concepts (p. 79). Latticework Publishing Inc.. Kindle Edition. ",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    },
+
+    {
+      "id": "{{id-5}}",
+      "name": "Compare to hypothesis and adjust accordingly (new question, etc.)",
+      "title": "Compare to hypothesis and adjust accordingly (new question, etc.)",
+      "description": "",
+      "content": "",
+      "neighbors": [],
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "source": "{{id-0}}",
+      "target": "{{id-1}}",
+      "value": 2
+    },
+    {
+      "source": "{{id-1}}",
+      "target": "{{id-2}}",
+      "value": 2
+    },
+
+    {
+      "source": "{{id-2}}",
+      "target": "{{id-3}}",
+      "value": 2
+    },
+
+    {
+      "source": "{{id-3}}",
+      "target": "{{id-4}}",
+      "value": 2
+    },
+
+    {
+      "source": "{{id-4}}",
+      "target": "{{id-5}}",
+      "value": 2
+    }
+  ]
+}
